@@ -1,0 +1,2622 @@
+[
+  {
+    "car": [
+      {
+        "id": "efb0701b-73d8-4a1c-ba74-a0d3da882903",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 89020,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-04T14:47:08.175Z",
+        "updated_at": "2023-10-05T00:33:27.868Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8b774bfc-7ff1-49f1-bf22-61e58b5560e6",
+        "make": "Honda",
+        "model": "Accord",
+        "year": 37865,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-10-04T07:38:47.070Z",
+        "updated_at": "2023-10-05T05:43:42.278Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1b82accd-8b82-410e-b32d-520f8cc1337b",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 13627,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "created_at": "2023-10-04T07:08:21.516Z",
+        "updated_at": "2023-10-04T08:34:05.946Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c1fcfa4c-bd60-4b4d-8b21-9c2860b3459a",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 12784,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "created_at": "2023-10-04T17:17:08.360Z",
+        "updated_at": "2023-10-04T12:44:38.033Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "91496c8f-8f07-4058-8b9b-5b951badbd1b",
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 34938,
+        "color": "White",
+        "license_plate": "456DEF",
+        "created_at": "2023-10-04T12:12:11.881Z",
+        "updated_at": "2023-10-04T15:30:11.733Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "3d12555c-c55d-448e-858f-b367ae75ce3d",
+        "rating": 29238,
+        "comment": "Great product!",
+        "created_at": "2023-10-04T19:59:57.497Z",
+        "updated_at": "2023-10-04T18:59:14.374Z",
+        "car_id": "8b774bfc-7ff1-49f1-bf22-61e58b5560e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c91d3817-ff59-4851-8f6b-e593a1073e0d",
+        "rating": 74195,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-04T15:42:35.841Z",
+        "updated_at": "2023-10-05T01:37:31.872Z",
+        "car_id": "efb0701b-73d8-4a1c-ba74-a0d3da882903",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc67d15f-0a79-4fcf-ac4e-c6095adce36e",
+        "rating": 9734,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-04T10:49:38.434Z",
+        "updated_at": "2023-10-04T07:42:09.072Z",
+        "car_id": "8b774bfc-7ff1-49f1-bf22-61e58b5560e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "adb5746a-e7b4-4ec7-ad30-ce32a24ebe58",
+        "rating": 42878,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-04T07:16:12.168Z",
+        "updated_at": "2023-10-04T06:41:13.917Z",
+        "car_id": "8b774bfc-7ff1-49f1-bf22-61e58b5560e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e129ae1c-ded5-4450-b220-a6e87930b09c",
+        "rating": 50537,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-04T10:23:35.795Z",
+        "updated_at": "2023-10-04T23:34:53.944Z",
+        "car_id": "91496c8f-8f07-4058-8b9b-5b951badbd1b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "09928ab2-e5a6-440e-b811-b82a93c71fbb",
+        "issue": "Bug",
+        "description": "The application crashes when clicking on the submit button",
+        "status": "Open",
+        "created_at": "2023-10-04T13:40:43.061Z",
+        "updated_at": "2023-10-05T04:17:08.947Z",
+        "car_id": "91496c8f-8f07-4058-8b9b-5b951badbd1b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56a744e1-719b-4a1e-9c70-927edbc77306",
+        "issue": "Error",
+        "description": "The website shows incorrect data on the homepage",
+        "status": "In Progress",
+        "created_at": "2023-10-04T08:28:24.390Z",
+        "updated_at": "2023-10-05T04:11:11.657Z",
+        "car_id": "8b774bfc-7ff1-49f1-bf22-61e58b5560e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "abba5a0a-ea65-49ee-9f43-6c935d48aa0e",
+        "issue": "Crash",
+        "description": "The system is slow when processing large files",
+        "status": "Resolved",
+        "created_at": "2023-10-04T23:58:48.909Z",
+        "updated_at": "2023-10-04T20:15:04.279Z",
+        "car_id": "91496c8f-8f07-4058-8b9b-5b951badbd1b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f8cd652-7a45-4a8e-9b33-16c0e183fd7d",
+        "issue": "Performance problem",
+        "description": "The login page is not secure",
+        "status": "Closed",
+        "created_at": "2023-10-04T13:04:26.143Z",
+        "updated_at": "2023-10-04T21:23:50.898Z",
+        "car_id": "91496c8f-8f07-4058-8b9b-5b951badbd1b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2c17554-077c-46ee-b5aa-431e11b5f08b",
+        "issue": "Security vulnerability",
+        "description": "The app freezes when opening a specific file",
+        "status": "Reopened",
+        "created_at": "2023-10-04T07:45:14.262Z",
+        "updated_at": "2023-10-05T02:13:21.069Z",
+        "car_id": "91496c8f-8f07-4058-8b9b-5b951badbd1b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "3ce17a98-fcf2-450a-9d90-5d2344d62124",
+        "start_time": "2023-10-04T08:03:07.690Z",
+        "end_time": "2023-10-04T16:40:40.080Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City center",
+        "created_at": "2023-10-04T06:51:36.978Z",
+        "updated_at": "2023-10-05T06:18:00.342Z",
+        "car_id": "1b82accd-8b82-410e-b32d-520f8cc1337b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b7a1ca5-4230-46cc-b93a-fca6a006af69",
+        "start_time": "2023-10-04T19:47:37.261Z",
+        "end_time": "2023-10-04T13:41:07.174Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Shopping mall",
+        "created_at": "2023-10-04T21:07:16.766Z",
+        "updated_at": "2023-10-04T19:35:22.849Z",
+        "car_id": "91496c8f-8f07-4058-8b9b-5b951badbd1b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5835be4-d823-4714-99fc-758334418c71",
+        "start_time": "2023-10-04T11:22:35.526Z",
+        "end_time": "2023-10-04T08:50:06.508Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "created_at": "2023-10-05T04:07:28.773Z",
+        "updated_at": "2023-10-04T16:36:43.328Z",
+        "car_id": "1b82accd-8b82-410e-b32d-520f8cc1337b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "053ed785-0563-48b4-ac65-a7f6be896938",
+        "start_time": "2023-10-05T02:55:16.440Z",
+        "end_time": "2023-10-04T17:26:35.714Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "created_at": "2023-10-05T00:21:26.578Z",
+        "updated_at": "2023-10-04T13:06:02.581Z",
+        "car_id": "91496c8f-8f07-4058-8b9b-5b951badbd1b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c920be94-d091-41be-8338-eaf7c3f98617",
+        "start_time": "2023-10-05T02:42:57.198Z",
+        "end_time": "2023-10-04T23:11:21.467Z",
+        "pickup_location": "Residential area",
+        "dropoff_location": "Beach",
+        "created_at": "2023-10-04T15:25:13.237Z",
+        "updated_at": "2023-10-05T01:15:12.114Z",
+        "car_id": "c1fcfa4c-bd60-4b4d-8b21-9c2860b3459a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d77f860c-7e8b-415d-b5df-55cfb7a4a40e",
+        "email": "Abraham.Kutch@roq.tech",
+        "firstName": "Aglae",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1056.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ff5e5cda-7140-444a-a491-c6fe4bf294cd",
+        "email": "Kane12@roq.tech",
+        "firstName": "Jefferey",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22549065",
+        "tenantId": null
+      },
+      {
+        "reference": "5fe4af31-446b-4ff1-ab85-291d4c1de32f",
+        "email": "Cary.Mitchell@roq.tech",
+        "firstName": "Annabelle",
+        "lastName": "Jaskolski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/80.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3cc59176-cb6b-4b74-acca-6bd53876ccb3",
+        "email": "Duncan_Jerde81@roq.tech",
+        "firstName": "Aaliyah",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55816872",
+        "tenantId": null
+      },
+      {
+        "reference": "35e9f2fb-5d50-4dff-b0a4-46dce771fc43",
+        "email": "Marcelo_Ryan@roq.tech",
+        "firstName": "Holden",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/832.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "88a994fc-dcd4-4629-9347-ec6a87c39d6f",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 70202,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-05T03:51:05.111Z",
+        "updated_at": "2023-10-05T05:20:26.593Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "679ae493-dca2-460b-bc04-ec2798585555",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 84046,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-10-04T18:18:51.323Z",
+        "updated_at": "2023-10-04T17:52:12.367Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6a9e4695-76a2-46e5-bcd2-aceb072fadfb",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 56604,
+        "color": "Green",
+        "license_plate": "123456",
+        "created_at": "2023-10-05T02:21:19.828Z",
+        "updated_at": "2023-10-04T08:02:54.819Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1cd52348-ba77-4a63-bb2c-b35709f8138e",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 87246,
+        "color": "Black",
+        "license_plate": "789ABC",
+        "created_at": "2023-10-04T17:06:28.166Z",
+        "updated_at": "2023-10-05T02:43:23.055Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0afb7b91-0f35-4f14-b927-b7bbebf7863a",
+        "make": "BMW",
+        "model": "X5",
+        "year": 32931,
+        "color": "White",
+        "license_plate": "456XYZ",
+        "created_at": "2023-10-05T00:53:05.427Z",
+        "updated_at": "2023-10-04T21:00:50.037Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "ddead514-1237-4483-a5d6-dcc10d270587",
+        "rating": 36992,
+        "comment": "Great product!",
+        "created_at": "2023-10-05T03:45:05.608Z",
+        "updated_at": "2023-10-04T10:20:33.242Z",
+        "car_id": "679ae493-dca2-460b-bc04-ec2798585555",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cffd989e-1ffd-4a63-922f-fd024ab73834",
+        "rating": 82708,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-04T13:52:18.034Z",
+        "updated_at": "2023-10-04T12:55:08.967Z",
+        "car_id": "88a994fc-dcd4-4629-9347-ec6a87c39d6f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4174d127-94c0-4b65-8169-af3a21fd85f5",
+        "rating": 30718,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-04T22:26:46.521Z",
+        "updated_at": "2023-10-04T08:28:35.190Z",
+        "car_id": "88a994fc-dcd4-4629-9347-ec6a87c39d6f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8888d98-c468-4112-b63d-ebfd70e3c54b",
+        "rating": 48808,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-04T13:49:39.223Z",
+        "updated_at": "2023-10-05T00:11:12.807Z",
+        "car_id": "88a994fc-dcd4-4629-9347-ec6a87c39d6f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18341b78-6a8a-48da-85a2-63e026192d82",
+        "rating": 67047,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-04T23:48:43.421Z",
+        "updated_at": "2023-10-04T10:08:44.238Z",
+        "car_id": "88a994fc-dcd4-4629-9347-ec6a87c39d6f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "1860370c-b28f-41d8-8299-b83c3f953e2f",
+        "issue": "Bug",
+        "description": "The system crashed unexpectedly",
+        "status": "Open",
+        "created_at": "2023-10-04T20:37:41.635Z",
+        "updated_at": "2023-10-05T04:56:32.623Z",
+        "car_id": "6a9e4695-76a2-46e5-bcd2-aceb072fadfb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85c1306b-f42d-4678-8eb9-f59fa1d05407",
+        "issue": "Error",
+        "description": "Unable to login",
+        "status": "In Progress",
+        "created_at": "2023-10-04T12:31:13.293Z",
+        "updated_at": "2023-10-04T16:53:38.608Z",
+        "car_id": "0afb7b91-0f35-4f14-b927-b7bbebf7863a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6589fac4-0afb-428b-9df2-a4dff8deb8d3",
+        "issue": "Glitch",
+        "description": "Data not saving correctly",
+        "status": "Resolved",
+        "created_at": "2023-10-04T16:56:38.923Z",
+        "updated_at": "2023-10-05T03:56:41.860Z",
+        "car_id": "6a9e4695-76a2-46e5-bcd2-aceb072fadfb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f99e18d-b088-4c97-834a-6b42d6a29489",
+        "issue": "Problem",
+        "description": "Slow performance",
+        "status": "Closed",
+        "created_at": "2023-10-04T20:15:58.359Z",
+        "updated_at": "2023-10-05T02:05:11.455Z",
+        "car_id": "1cd52348-ba77-4a63-bb2c-b35709f8138e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f4f23b9-be38-485e-b218-57b721ad7bff",
+        "issue": "Issue",
+        "description": "Incorrect calculations",
+        "status": "Pending",
+        "created_at": "2023-10-04T09:04:41.686Z",
+        "updated_at": "2023-10-04T09:30:08.615Z",
+        "car_id": "0afb7b91-0f35-4f14-b927-b7bbebf7863a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "559e6e2f-048c-47a9-8cc9-37356739a8f6",
+        "start_time": "2023-10-04T07:16:32.395Z",
+        "end_time": "2023-10-04T23:56:06.942Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Restaurant",
+        "created_at": "2023-10-05T02:22:24.499Z",
+        "updated_at": "2023-10-04T12:17:49.292Z",
+        "car_id": "6a9e4695-76a2-46e5-bcd2-aceb072fadfb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "faa0206b-9b08-489f-985d-711b8fa49f10",
+        "start_time": "2023-10-04T18:54:04.559Z",
+        "end_time": "2023-10-04T21:26:21.580Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Shopping mall",
+        "created_at": "2023-10-04T19:50:26.962Z",
+        "updated_at": "2023-10-04T08:16:56.916Z",
+        "car_id": "0afb7b91-0f35-4f14-b927-b7bbebf7863a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1a50b5b-619a-40d8-96bd-a8fb7ff50e3f",
+        "start_time": "2023-10-04T15:17:47.350Z",
+        "end_time": "2023-10-04T06:56:16.262Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Park",
+        "created_at": "2023-10-04T13:21:43.287Z",
+        "updated_at": "2023-10-04T15:36:44.313Z",
+        "car_id": "1cd52348-ba77-4a63-bb2c-b35709f8138e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6aae783f-312f-4193-82e4-31f10a78be84",
+        "start_time": "2023-10-04T18:45:47.730Z",
+        "end_time": "2023-10-04T06:45:13.919Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Gym",
+        "created_at": "2023-10-04T17:51:15.039Z",
+        "updated_at": "2023-10-04T13:36:14.077Z",
+        "car_id": "6a9e4695-76a2-46e5-bcd2-aceb072fadfb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb780f21-164d-46c6-aff6-b5f04a4dc7ff",
+        "start_time": "2023-10-05T01:04:24.182Z",
+        "end_time": "2023-10-04T06:24:15.730Z",
+        "pickup_location": "Residential area",
+        "dropoff_location": "Movie theater",
+        "created_at": "2023-10-04T15:25:40.643Z",
+        "updated_at": "2023-10-04T20:03:39.552Z",
+        "car_id": "88a994fc-dcd4-4629-9347-ec6a87c39d6f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f40ec542-fc90-44e8-a2e2-bb3cfad81013",
+        "email": "Alexis_Lebsack@roq.tech",
+        "firstName": "Edward",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10724165",
+        "tenantId": null
+      },
+      {
+        "reference": "73426fdb-f96c-4ed6-9230-0ca2e9492fc7",
+        "email": "Velda_Haley@roq.tech",
+        "firstName": "Price",
+        "lastName": "Beer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/280.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6f73db09-bff8-4b33-aa42-73382878adf5",
+        "email": "Willard44@roq.tech",
+        "firstName": "Rosario",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6113898",
+        "tenantId": null
+      },
+      {
+        "reference": "dc1ca5e4-cf1f-40be-90a8-f6e94e50dbcb",
+        "email": "Dustin_Bartell55@roq.tech",
+        "firstName": "Abdiel",
+        "lastName": "Walsh",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16039781",
+        "tenantId": null
+      },
+      {
+        "reference": "870d892f-ebf2-4ed5-98a7-56ea1d20548b",
+        "email": "Linnie.Dickinson80@roq.tech",
+        "firstName": "Princess",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/114.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "b27188bb-b7c7-46e5-84a7-b313cce9dc1d",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 71622,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-05T01:27:55.025Z",
+        "updated_at": "2023-10-04T10:27:30.291Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "aea35a68-8e02-4dc6-86ac-00981b4d56eb",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 66781,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-10-04T20:41:37.808Z",
+        "updated_at": "2023-10-04T14:51:54.113Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "96a754f8-9591-4230-ad6b-529b4f5ab410",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 14805,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "created_at": "2023-10-04T06:34:41.367Z",
+        "updated_at": "2023-10-04T11:08:02.311Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "59eaa75e-398b-4250-941c-83ca73f9dcaf",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 38228,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "created_at": "2023-10-04T21:15:34.834Z",
+        "updated_at": "2023-10-05T05:15:06.255Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f99d6cc7-b095-4fda-a94a-290fba6d330f",
+        "make": "BMW",
+        "model": "X5",
+        "year": 26746,
+        "color": "White",
+        "license_plate": "QWE456",
+        "created_at": "2023-10-05T05:15:46.809Z",
+        "updated_at": "2023-10-04T07:27:53.671Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "79e2c69a-cbdb-48b3-9344-11ecd6d3335b",
+        "rating": 90605,
+        "comment": "Great product!",
+        "created_at": "2023-10-04T15:19:13.780Z",
+        "updated_at": "2023-10-04T07:34:03.716Z",
+        "car_id": "b27188bb-b7c7-46e5-84a7-b313cce9dc1d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ddd6099-c140-41c3-8aa0-3d4860c197e0",
+        "rating": 20313,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-05T01:01:19.665Z",
+        "updated_at": "2023-10-05T02:28:52.549Z",
+        "car_id": "aea35a68-8e02-4dc6-86ac-00981b4d56eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aaf79350-fb45-45a8-a8cf-0e1110d939a4",
+        "rating": 68392,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-04T17:12:43.229Z",
+        "updated_at": "2023-10-04T18:27:47.995Z",
+        "car_id": "59eaa75e-398b-4250-941c-83ca73f9dcaf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a75ebd68-34bf-49d0-ae07-9f43ca6775e9",
+        "rating": 36150,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-04T09:16:05.963Z",
+        "updated_at": "2023-10-05T00:15:52.993Z",
+        "car_id": "aea35a68-8e02-4dc6-86ac-00981b4d56eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43ef86dd-12cc-4f45-8ca1-88f814d1a6ae",
+        "rating": 62487,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-04T15:27:35.737Z",
+        "updated_at": "2023-10-05T03:24:23.793Z",
+        "car_id": "f99d6cc7-b095-4fda-a94a-290fba6d330f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "11a98a95-1f64-4c03-80d2-51f06398f932",
+        "issue": "Bug",
+        "description": "The app crashes when I click on the submit button",
+        "status": "Open",
+        "created_at": "2023-10-04T15:48:53.394Z",
+        "updated_at": "2023-10-04T13:39:55.503Z",
+        "car_id": "b27188bb-b7c7-46e5-84a7-b313cce9dc1d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47f4bb5e-b644-46c3-9745-a25550548e48",
+        "issue": "Error",
+        "description": "I encountered an error message while trying to login",
+        "status": "In Progress",
+        "created_at": "2023-10-05T05:20:35.830Z",
+        "updated_at": "2023-10-05T03:53:07.454Z",
+        "car_id": "b27188bb-b7c7-46e5-84a7-b313cce9dc1d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b03c5b77-6b05-405b-a94c-ccb97bd224f5",
+        "issue": "Crash",
+        "description": "There is a security vulnerability in the payment system",
+        "status": "Resolved",
+        "created_at": "2023-10-04T17:09:41.838Z",
+        "updated_at": "2023-10-05T05:59:19.884Z",
+        "car_id": "aea35a68-8e02-4dc6-86ac-00981b4d56eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "655013fa-a31c-452a-85fd-f917a9f63fc6",
+        "issue": "Security vulnerability",
+        "description": "The website is slow to load",
+        "status": "Closed",
+        "created_at": "2023-10-04T16:41:58.449Z",
+        "updated_at": "2023-10-04T20:45:51.762Z",
+        "car_id": "aea35a68-8e02-4dc6-86ac-00981b4d56eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f610308-275b-4af4-91ea-906c105f9a1c",
+        "issue": "Performance problem",
+        "description": "The application freezes when I perform a certain action",
+        "status": "Pending",
+        "created_at": "2023-10-05T04:07:56.020Z",
+        "updated_at": "2023-10-05T04:25:20.143Z",
+        "car_id": "96a754f8-9591-4230-ad6b-529b4f5ab410",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "020ac460-f73e-4f09-84a1-b1ce58a3bb70",
+        "start_time": "2023-10-04T14:33:11.873Z",
+        "end_time": "2023-10-04T15:17:43.345Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "created_at": "2023-10-04T11:33:21.300Z",
+        "updated_at": "2023-10-05T01:42:18.472Z",
+        "car_id": "b27188bb-b7c7-46e5-84a7-b313cce9dc1d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50f4bf3a-b3bf-4c5b-9f91-d9eeee822400",
+        "start_time": "2023-10-05T02:51:33.985Z",
+        "end_time": "2023-10-04T15:19:07.316Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "created_at": "2023-10-04T18:36:51.380Z",
+        "updated_at": "2023-10-04T08:27:42.441Z",
+        "car_id": "96a754f8-9591-4230-ad6b-529b4f5ab410",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d55d45c1-4ff8-4424-bc71-577d136a4244",
+        "start_time": "2023-10-04T17:55:26.504Z",
+        "end_time": "2023-10-04T11:14:29.487Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "created_at": "2023-10-05T04:05:44.656Z",
+        "updated_at": "2023-10-04T20:02:41.502Z",
+        "car_id": "59eaa75e-398b-4250-941c-83ca73f9dcaf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4c1ead0-1c95-4056-b882-55e15a7bb627",
+        "start_time": "2023-10-04T18:09:11.939Z",
+        "end_time": "2023-10-05T06:20:10.672Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "created_at": "2023-10-04T14:03:47.803Z",
+        "updated_at": "2023-10-05T02:29:18.474Z",
+        "car_id": "96a754f8-9591-4230-ad6b-529b4f5ab410",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23953c71-64b0-4e62-b8d8-5f249c16edc4",
+        "start_time": "2023-10-04T18:35:00.793Z",
+        "end_time": "2023-10-04T17:02:17.087Z",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Beach",
+        "created_at": "2023-10-05T00:51:18.890Z",
+        "updated_at": "2023-10-04T22:49:53.940Z",
+        "car_id": "aea35a68-8e02-4dc6-86ac-00981b4d56eb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e216dd9c-7f81-4190-995e-1b9cb1bd33d5",
+        "email": "Brandon97@roq.tech",
+        "firstName": "Marshall",
+        "lastName": "Bernhard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58726981",
+        "tenantId": null
+      },
+      {
+        "reference": "8ff42f95-2019-4f66-9011-075ede72f287",
+        "email": "Tara46@roq.tech",
+        "firstName": "Ashleigh",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21696747",
+        "tenantId": null
+      },
+      {
+        "reference": "d46e2610-3880-4722-bde2-2534a28436b1",
+        "email": "Bart_Bergstrom@roq.tech",
+        "firstName": "Zella",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65403725",
+        "tenantId": null
+      },
+      {
+        "reference": "be3818d6-c151-4dab-b896-a5e327cfcdb0",
+        "email": "Johan.Fay@roq.tech",
+        "firstName": "Travis",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/591.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b7fc6d69-5a0e-4334-b588-55342e717475",
+        "email": "Lionel.Carter14@roq.tech",
+        "firstName": "Granville",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/717.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "7f3ca4f9-a876-4067-b262-08bec895fc3b",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 16613,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-04T15:14:37.999Z",
+        "updated_at": "2023-10-04T11:59:43.830Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f8bcc1af-4e55-488f-a248-033d99c9977d",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 73321,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-10-04T07:36:29.263Z",
+        "updated_at": "2023-10-05T01:23:24.472Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "eeb3b075-0384-417f-96d2-5c997499515f",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 91481,
+        "color": "Green",
+        "license_plate": "123456",
+        "created_at": "2023-10-04T09:40:40.053Z",
+        "updated_at": "2023-10-04T16:02:01.163Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0bdbe069-1ace-4769-8962-f26ba712679e",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 30451,
+        "color": "Black",
+        "license_plate": "DEF456",
+        "created_at": "2023-10-04T18:44:47.795Z",
+        "updated_at": "2023-10-04T09:01:09.997Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "06dff7d8-6c6f-48cd-830a-9de9289fd823",
+        "make": "BMW",
+        "model": "X5",
+        "year": 82737,
+        "color": "White",
+        "license_plate": "GHI789",
+        "created_at": "2023-10-04T08:23:11.510Z",
+        "updated_at": "2023-10-04T19:55:17.049Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "d107bdee-85b2-4a59-ae5f-a67e614a087b",
+        "rating": 64605,
+        "comment": "Great product!",
+        "created_at": "2023-10-04T12:24:35.790Z",
+        "updated_at": "2023-10-04T16:40:26.828Z",
+        "car_id": "f8bcc1af-4e55-488f-a248-033d99c9977d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5dbdec95-fd80-4c63-8bec-e74407ba3815",
+        "rating": 91102,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-05T04:25:09.918Z",
+        "updated_at": "2023-10-04T18:41:26.765Z",
+        "car_id": "f8bcc1af-4e55-488f-a248-033d99c9977d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "020b3553-56ed-4bf0-b875-a1d4e9ded530",
+        "rating": 89554,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-04T19:43:11.859Z",
+        "updated_at": "2023-10-05T00:51:28.254Z",
+        "car_id": "f8bcc1af-4e55-488f-a248-033d99c9977d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83276dee-2e78-4093-8c3d-f1fcf1294b6a",
+        "rating": 53872,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-04T13:42:25.913Z",
+        "updated_at": "2023-10-04T13:02:17.811Z",
+        "car_id": "06dff7d8-6c6f-48cd-830a-9de9289fd823",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb5f301c-5b5d-40a8-88a5-30ff7bc6d161",
+        "rating": 69331,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-04T19:07:57.543Z",
+        "updated_at": "2023-10-04T23:57:36.774Z",
+        "car_id": "0bdbe069-1ace-4769-8962-f26ba712679e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "de4d7189-f570-4233-a454-b3a89e48f30a",
+        "issue": "Bug",
+        "description": "The application crashes randomly",
+        "status": "Open",
+        "created_at": "2023-10-05T00:48:18.395Z",
+        "updated_at": "2023-10-04T16:33:02.503Z",
+        "car_id": "0bdbe069-1ace-4769-8962-f26ba712679e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8bc228d-0bbe-422c-95c5-e02aa8f40540",
+        "issue": "Error",
+        "description": "Unable to login",
+        "status": "In Progress",
+        "created_at": "2023-10-04T12:07:13.996Z",
+        "updated_at": "2023-10-04T21:18:20.492Z",
+        "car_id": "eeb3b075-0384-417f-96d2-5c997499515f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "662294d2-214f-44e4-82df-ca8acc9646cd",
+        "issue": "Problem",
+        "description": "Data inconsistency",
+        "status": "Resolved",
+        "created_at": "2023-10-04T19:41:13.446Z",
+        "updated_at": "2023-10-04T20:01:45.220Z",
+        "car_id": "06dff7d8-6c6f-48cd-830a-9de9289fd823",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3a964cd-8355-4029-b09f-a9596360985f",
+        "issue": "Issue",
+        "description": "Slow performance",
+        "status": "Closed",
+        "created_at": "2023-10-04T08:43:51.699Z",
+        "updated_at": "2023-10-04T16:09:24.315Z",
+        "car_id": "7f3ca4f9-a876-4067-b262-08bec895fc3b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e217eb4-a94d-4409-b96e-dd98324128d0",
+        "issue": "Defect",
+        "description": "Incorrect calculations",
+        "status": "Reopened",
+        "created_at": "2023-10-04T07:25:00.276Z",
+        "updated_at": "2023-10-05T02:57:56.346Z",
+        "car_id": "f8bcc1af-4e55-488f-a248-033d99c9977d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "a1ef6b5c-c281-454d-86c0-92c34579248e",
+        "start_time": "2023-10-05T03:51:18.800Z",
+        "end_time": "2023-10-05T00:51:08.389Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City center",
+        "created_at": "2023-10-04T06:45:36.522Z",
+        "updated_at": "2023-10-05T02:55:00.316Z",
+        "car_id": "7f3ca4f9-a876-4067-b262-08bec895fc3b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72f3ec47-1046-4f3f-94d1-70e5a9c82347",
+        "start_time": "2023-10-04T16:15:51.507Z",
+        "end_time": "2023-10-04T19:20:18.537Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Shopping mall",
+        "created_at": "2023-10-04T12:08:38.047Z",
+        "updated_at": "2023-10-04T10:00:31.960Z",
+        "car_id": "7f3ca4f9-a876-4067-b262-08bec895fc3b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e0eb2b7-b10b-4425-b535-da02dff27501",
+        "start_time": "2023-10-04T10:42:18.671Z",
+        "end_time": "2023-10-05T00:52:54.267Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "created_at": "2023-10-04T21:44:52.587Z",
+        "updated_at": "2023-10-04T08:07:20.033Z",
+        "car_id": "0bdbe069-1ace-4769-8962-f26ba712679e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "111f27b3-c756-4cf6-bbf6-68e622627847",
+        "start_time": "2023-10-05T01:11:15.649Z",
+        "end_time": "2023-10-04T21:24:30.103Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "created_at": "2023-10-04T17:51:00.754Z",
+        "updated_at": "2023-10-04T12:41:36.065Z",
+        "car_id": "f8bcc1af-4e55-488f-a248-033d99c9977d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "966f33e3-e384-4e6d-8311-aa22c67c604e",
+        "start_time": "2023-10-04T13:51:13.352Z",
+        "end_time": "2023-10-05T02:39:02.272Z",
+        "pickup_location": "Residential area",
+        "dropoff_location": "Beach",
+        "created_at": "2023-10-05T05:44:45.782Z",
+        "updated_at": "2023-10-05T04:04:10.946Z",
+        "car_id": "f8bcc1af-4e55-488f-a248-033d99c9977d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8fefbb93-253d-4ff4-a87d-f230b1b6732b",
+        "email": "Ida.Schaden@roq.tech",
+        "firstName": "Rachael",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1102.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3b4bd620-76c7-4d71-b40b-7c462a703da2",
+        "email": "Reina_Cruickshank@roq.tech",
+        "firstName": "Erwin",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21001178",
+        "tenantId": null
+      },
+      {
+        "reference": "7a518193-6ed6-4f65-97ea-99b815489ff1",
+        "email": "Meredith_Dibbert@roq.tech",
+        "firstName": "Heather",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/6.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a10650d1-38e5-4cc5-bd52-1111af383247",
+        "email": "Elmer.McCullough63@roq.tech",
+        "firstName": "Elaina",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43073819",
+        "tenantId": null
+      },
+      {
+        "reference": "1f1431cb-d8a5-48f5-9b9f-e7827bfde5ae",
+        "email": "Christina68@roq.tech",
+        "firstName": "Ayla",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73712000",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "3b156913-1889-46f9-ba94-d8ec01cfcc42",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 8981,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-04T09:21:04.098Z",
+        "updated_at": "2023-10-04T20:30:41.247Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4b87438f-2968-492c-8778-d639e67c90af",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 80826,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-10-05T01:15:53.981Z",
+        "updated_at": "2023-10-04T06:45:12.276Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1f3fded0-3e3f-42ea-a05e-d7c7837e49c8",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 63496,
+        "color": "Black",
+        "license_plate": "123ABC",
+        "created_at": "2023-10-04T16:52:40.639Z",
+        "updated_at": "2023-10-05T04:27:39.923Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "25ce36f2-67f8-4f59-af10-1232111c1604",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 77030,
+        "color": "White",
+        "license_plate": "789XYZ",
+        "created_at": "2023-10-04T16:51:42.602Z",
+        "updated_at": "2023-10-05T05:18:17.746Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "37dc413d-ccdb-4cc7-9cf9-68f7fa1d6064",
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 79418,
+        "color": "Silver",
+        "license_plate": "456DEF",
+        "created_at": "2023-10-04T22:32:30.621Z",
+        "updated_at": "2023-10-04T08:24:20.791Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "d8b186af-d30f-4809-a273-ff8687dea788",
+        "rating": 73181,
+        "comment": "Great product!",
+        "created_at": "2023-10-05T00:11:17.579Z",
+        "updated_at": "2023-10-04T09:31:07.132Z",
+        "car_id": "4b87438f-2968-492c-8778-d639e67c90af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3436b20-8ffb-4b8c-bbf5-bcdc1506b656",
+        "rating": 15006,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-04T13:35:02.659Z",
+        "updated_at": "2023-10-04T22:52:13.241Z",
+        "car_id": "37dc413d-ccdb-4cc7-9cf9-68f7fa1d6064",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "387960a9-02c9-457e-9dae-ca6b40928153",
+        "rating": 64232,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-04T23:32:33.010Z",
+        "updated_at": "2023-10-04T23:29:44.256Z",
+        "car_id": "3b156913-1889-46f9-ba94-d8ec01cfcc42",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "613b6024-04bf-4861-9fc2-185a13a04018",
+        "rating": 12588,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-04T10:47:30.735Z",
+        "updated_at": "2023-10-04T21:05:56.872Z",
+        "car_id": "37dc413d-ccdb-4cc7-9cf9-68f7fa1d6064",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ca833b8-f0f3-49b7-a556-8bcb8670dd39",
+        "rating": 77310,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-05T06:22:14.507Z",
+        "updated_at": "2023-10-04T20:41:43.817Z",
+        "car_id": "1f3fded0-3e3f-42ea-a05e-d7c7837e49c8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "0e3f7d11-310e-4075-baf1-838320de4255",
+        "issue": "Bug",
+        "description": "The system crashes when...",
+        "status": "Open",
+        "created_at": "2023-10-05T04:21:37.890Z",
+        "updated_at": "2023-10-04T09:36:03.937Z",
+        "car_id": "1f3fded0-3e3f-42ea-a05e-d7c7837e49c8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ccd1a0b-8c69-47cf-bf71-3632a381de9e",
+        "issue": "Error",
+        "description": "There is a problem with...",
+        "status": "In Progress",
+        "created_at": "2023-10-04T09:45:38.465Z",
+        "updated_at": "2023-10-04T20:46:10.093Z",
+        "car_id": "3b156913-1889-46f9-ba94-d8ec01cfcc42",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b56c3296-0503-4a61-9952-8d6464c2c6f9",
+        "issue": "Security vulnerability",
+        "description": "The application is slow in...",
+        "status": "Resolved",
+        "created_at": "2023-10-04T17:17:07.561Z",
+        "updated_at": "2023-10-04T11:04:15.370Z",
+        "car_id": "4b87438f-2968-492c-8778-d639e67c90af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04981fc9-48a5-4bfe-aac8-11ee0b283d45",
+        "issue": "Performance problem",
+        "description": "The data is incorrect for...",
+        "status": "Closed",
+        "created_at": "2023-10-04T21:14:11.278Z",
+        "updated_at": "2023-10-04T19:52:33.517Z",
+        "car_id": "25ce36f2-67f8-4f59-af10-1232111c1604",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f09c4028-d5a3-4304-a810-891324980257",
+        "issue": "Data inconsistency",
+        "description": "The security breach occurred in...",
+        "status": "Reopened",
+        "created_at": "2023-10-05T03:21:31.751Z",
+        "updated_at": "2023-10-04T06:33:21.070Z",
+        "car_id": "3b156913-1889-46f9-ba94-d8ec01cfcc42",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "2a542117-1953-4783-b2bd-433249aed6b0",
+        "start_time": "2023-10-04T19:02:23.977Z",
+        "end_time": "2023-10-05T05:42:56.181Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City center",
+        "created_at": "2023-10-04T06:34:58.437Z",
+        "updated_at": "2023-10-04T11:12:04.166Z",
+        "car_id": "3b156913-1889-46f9-ba94-d8ec01cfcc42",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca101865-885e-42b5-8865-8940142a8963",
+        "start_time": "2023-10-04T07:48:57.320Z",
+        "end_time": "2023-10-05T05:40:35.019Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Shopping mall",
+        "created_at": "2023-10-04T23:00:49.701Z",
+        "updated_at": "2023-10-04T23:54:59.018Z",
+        "car_id": "3b156913-1889-46f9-ba94-d8ec01cfcc42",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ef3116e-6080-45ad-85f0-e120feb9302c",
+        "start_time": "2023-10-04T11:36:52.514Z",
+        "end_time": "2023-10-05T05:23:47.880Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "created_at": "2023-10-04T20:26:46.336Z",
+        "updated_at": "2023-10-04T16:56:54.958Z",
+        "car_id": "4b87438f-2968-492c-8778-d639e67c90af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "959f1c14-eff9-4af0-b0cc-d0b88a9c064a",
+        "start_time": "2023-10-04T17:14:08.599Z",
+        "end_time": "2023-10-04T11:12:40.987Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "created_at": "2023-10-04T09:05:55.584Z",
+        "updated_at": "2023-10-04T21:16:02.246Z",
+        "car_id": "37dc413d-ccdb-4cc7-9cf9-68f7fa1d6064",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ede3a88c-91cc-47db-9e0d-ff454e20e87c",
+        "start_time": "2023-10-05T03:06:33.185Z",
+        "end_time": "2023-10-05T04:27:55.179Z",
+        "pickup_location": "Residential area",
+        "dropoff_location": "Beach",
+        "created_at": "2023-10-05T03:05:28.579Z",
+        "updated_at": "2023-10-04T12:40:56.190Z",
+        "car_id": "3b156913-1889-46f9-ba94-d8ec01cfcc42",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "06799f11-ea58-4c27-b7e4-9ed92d7e8089",
+        "email": "Brycen_Runte@roq.tech",
+        "firstName": "Linnie",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15073381",
+        "tenantId": null
+      },
+      {
+        "reference": "1bb5dec7-d159-4353-b047-ba00e3fe8799",
+        "email": "Jules.McLaughlin@roq.tech",
+        "firstName": "Josiah",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/406.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c55e6e17-69ce-4340-968f-f57a06a9ddb5",
+        "email": "Francesco.Daniel@roq.tech",
+        "firstName": "Bernice",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/932.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8c66712c-9f28-4ad4-b7a0-8cc8c6ebb286",
+        "email": "Lola.Runte@roq.tech",
+        "firstName": "Natalia",
+        "lastName": "Langworth",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1057.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c389679f-2440-4cbf-b621-4dfb3b17becf",
+        "email": "Freddie4@roq.tech",
+        "firstName": "Kenton",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50585092",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "dea495a3-189e-4dc0-8912-22daab2c8faa",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 28410,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-05T00:17:51.596Z",
+        "updated_at": "2023-10-04T22:10:11.312Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "caa7a734-f779-4800-804d-decd9a25ccec",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 47079,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-10-04T11:52:36.630Z",
+        "updated_at": "2023-10-05T00:01:53.628Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5f7591b4-01c5-4e97-ab1f-8ba283eeead2",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 24296,
+        "color": "Black",
+        "license_plate": "123456",
+        "created_at": "2023-10-04T16:29:49.561Z",
+        "updated_at": "2023-10-04T10:22:57.740Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c186a0e1-b0a2-49ff-a277-de4f3fb81a5b",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 68792,
+        "color": "White",
+        "license_plate": "789ABC",
+        "created_at": "2023-10-05T04:30:30.934Z",
+        "updated_at": "2023-10-04T12:50:09.066Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "978552de-7096-43f6-a2a6-1381aeaa33cc",
+        "make": "BMW",
+        "model": "X5",
+        "year": 70205,
+        "color": "Silver",
+        "license_plate": "456XYZ",
+        "created_at": "2023-10-04T13:42:53.769Z",
+        "updated_at": "2023-10-05T05:19:57.203Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "25ee4a95-f819-4615-9cce-e6c092d670b2",
+        "rating": 62316,
+        "comment": "Great product!",
+        "created_at": "2023-10-04T07:05:06.283Z",
+        "updated_at": "2023-10-05T02:29:06.717Z",
+        "car_id": "978552de-7096-43f6-a2a6-1381aeaa33cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31a78b99-34d7-4f54-92aa-54c4f2ed5ecd",
+        "rating": 36992,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-04T18:58:00.469Z",
+        "updated_at": "2023-10-04T22:33:49.756Z",
+        "car_id": "978552de-7096-43f6-a2a6-1381aeaa33cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b19685f5-697b-4d36-a0ce-2dcd7a79edb6",
+        "rating": 76286,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-04T20:45:37.492Z",
+        "updated_at": "2023-10-05T01:27:16.681Z",
+        "car_id": "978552de-7096-43f6-a2a6-1381aeaa33cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c691658-2a87-4044-b245-11112219f058",
+        "rating": 97916,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-04T11:25:24.065Z",
+        "updated_at": "2023-10-04T17:15:38.690Z",
+        "car_id": "978552de-7096-43f6-a2a6-1381aeaa33cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7943dd8-5d76-4bfa-8383-c3e2ea33c2d5",
+        "rating": 34463,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-04T18:04:53.333Z",
+        "updated_at": "2023-10-05T03:56:45.772Z",
+        "car_id": "caa7a734-f779-4800-804d-decd9a25ccec",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "7d013016-729d-4578-be58-94d27eb00502",
+        "issue": "Bug",
+        "description": "The application crashes when opening a file",
+        "status": "Open",
+        "created_at": "2023-10-04T21:41:34.396Z",
+        "updated_at": "2023-10-04T12:20:23.225Z",
+        "car_id": "dea495a3-189e-4dc0-8912-22daab2c8faa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27cb2914-0f2b-4eed-8963-93105c4830e3",
+        "issue": "Error",
+        "description": "The website displays incorrect data",
+        "status": "In Progress",
+        "created_at": "2023-10-04T09:42:08.526Z",
+        "updated_at": "2023-10-04T22:51:58.673Z",
+        "car_id": "c186a0e1-b0a2-49ff-a277-de4f3fb81a5b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1823945e-5ca5-4595-a67a-c7d1fb92de04",
+        "issue": "Crash",
+        "description": "The system is slow during peak hours",
+        "status": "Resolved",
+        "created_at": "2023-10-05T01:01:45.356Z",
+        "updated_at": "2023-10-05T05:12:17.123Z",
+        "car_id": "dea495a3-189e-4dc0-8912-22daab2c8faa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5b45ec8-eef9-413f-b240-256ed001017f",
+        "issue": "Performance problem",
+        "description": "The mobile app freezes randomly",
+        "status": "Closed",
+        "created_at": "2023-10-05T03:42:48.089Z",
+        "updated_at": "2023-10-05T03:39:43.768Z",
+        "car_id": "dea495a3-189e-4dc0-8912-22daab2c8faa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5a42f00-54fa-4bd9-930a-6625be717534",
+        "issue": "Security vulnerability",
+        "description": "The login page is not secure",
+        "status": "Reopened",
+        "created_at": "2023-10-04T14:26:17.072Z",
+        "updated_at": "2023-10-04T18:38:55.170Z",
+        "car_id": "c186a0e1-b0a2-49ff-a277-de4f3fb81a5b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "292cea7a-f92d-4f7c-b513-f61e3d851d85",
+        "start_time": "2023-10-04T07:42:58.820Z",
+        "end_time": "2023-10-04T07:18:04.651Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "Restaurant",
+        "created_at": "2023-10-04T23:39:39.628Z",
+        "updated_at": "2023-10-04T06:40:46.432Z",
+        "car_id": "5f7591b4-01c5-4e97-ab1f-8ba283eeead2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf690fc5-cc08-4926-8a35-31ce2744d96d",
+        "start_time": "2023-10-04T21:38:38.442Z",
+        "end_time": "2023-10-04T18:45:04.559Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Shopping mall",
+        "created_at": "2023-10-04T19:23:33.909Z",
+        "updated_at": "2023-10-05T04:57:34.949Z",
+        "car_id": "c186a0e1-b0a2-49ff-a277-de4f3fb81a5b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9113cb4e-fc49-4cdb-be88-7325715e5ee8",
+        "start_time": "2023-10-05T01:20:52.809Z",
+        "end_time": "2023-10-04T14:39:03.124Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Park",
+        "created_at": "2023-10-05T05:38:25.401Z",
+        "updated_at": "2023-10-04T18:29:54.855Z",
+        "car_id": "c186a0e1-b0a2-49ff-a277-de4f3fb81a5b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a6080ac-73ce-4c6f-b570-5f6797ba0746",
+        "start_time": "2023-10-04T07:03:33.587Z",
+        "end_time": "2023-10-04T14:39:19.720Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Gym",
+        "created_at": "2023-10-05T03:49:07.427Z",
+        "updated_at": "2023-10-04T19:05:44.381Z",
+        "car_id": "5f7591b4-01c5-4e97-ab1f-8ba283eeead2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd490336-ce2d-4af5-bb81-f1ef080d37fb",
+        "start_time": "2023-10-04T23:58:30.102Z",
+        "end_time": "2023-10-04T08:46:36.818Z",
+        "pickup_location": "Residential address",
+        "dropoff_location": "Movie theater",
+        "created_at": "2023-10-04T07:12:10.449Z",
+        "updated_at": "2023-10-04T10:53:02.637Z",
+        "car_id": "978552de-7096-43f6-a2a6-1381aeaa33cc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "69e98fa1-05e2-4b5b-8742-6c0398234ae3",
+        "email": "Haylee_Schumm@roq.tech",
+        "firstName": "Ferne",
+        "lastName": "Ortiz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68838066",
+        "tenantId": null
+      },
+      {
+        "reference": "c078095c-8867-4d42-8f58-73a043b22270",
+        "email": "Cora96@roq.tech",
+        "firstName": "Russel",
+        "lastName": "Powlowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/45.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "896f4051-628e-49db-8274-9af506a2a98a",
+        "email": "Mable16@roq.tech",
+        "firstName": "Alek",
+        "lastName": "Schinner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/150.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2ed07057-91f0-435d-b35d-fba741b7d496",
+        "email": "Steve_Pouros@roq.tech",
+        "firstName": "Arianna",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/514.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f21c1fe3-b5fc-4915-8e5f-fc718cdfb558",
+        "email": "Leanna64@roq.tech",
+        "firstName": "Mathew",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/585.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "450ec07e-00cf-4563-b8db-a1fbfaab88ee",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 62391,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-04T17:06:28.696Z",
+        "updated_at": "2023-10-04T13:33:28.439Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "56f8d65f-2b8e-444e-9d6a-2333f293ad4a",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 37695,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-10-05T01:01:37.757Z",
+        "updated_at": "2023-10-04T17:08:07.091Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "435d205c-6e97-44dc-99ce-856f44375b1e",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 29001,
+        "color": "Black",
+        "license_plate": "123ABC",
+        "created_at": "2023-10-05T03:39:29.376Z",
+        "updated_at": "2023-10-05T06:01:11.960Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "534b35d1-86cd-4118-b4d7-13b690496b4e",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 93586,
+        "color": "White",
+        "license_plate": "789XYZ",
+        "created_at": "2023-10-04T06:42:25.305Z",
+        "updated_at": "2023-10-04T16:09:07.366Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e0d53e86-208b-42c8-917c-02727187c85e",
+        "make": "BMW",
+        "model": "X5",
+        "year": 1533,
+        "color": "Silver",
+        "license_plate": "456DEF",
+        "created_at": "2023-10-04T07:33:02.923Z",
+        "updated_at": "2023-10-05T02:22:16.493Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "fdf70c33-1cc1-43ac-b31d-5f6923e5c5c7",
+        "rating": 52394,
+        "comment": "Great product!",
+        "created_at": "2023-10-04T16:08:24.834Z",
+        "updated_at": "2023-10-05T05:57:16.020Z",
+        "car_id": "450ec07e-00cf-4563-b8db-a1fbfaab88ee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10e56afb-a634-4056-adfd-a77b884bbb12",
+        "rating": 87303,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-05T01:43:47.572Z",
+        "updated_at": "2023-10-05T05:03:05.215Z",
+        "car_id": "435d205c-6e97-44dc-99ce-856f44375b1e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "862ecaa6-37a4-4d85-a8b5-51e96411c63c",
+        "rating": 2484,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-05T02:28:59.821Z",
+        "updated_at": "2023-10-05T01:23:34.641Z",
+        "car_id": "56f8d65f-2b8e-444e-9d6a-2333f293ad4a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4dc5b76b-fa18-4b31-9072-59762b7cd4ca",
+        "rating": 82695,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-05T04:22:40.330Z",
+        "updated_at": "2023-10-04T18:47:03.097Z",
+        "car_id": "56f8d65f-2b8e-444e-9d6a-2333f293ad4a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a48dedbd-7fa2-479e-ac90-a495e08c07b6",
+        "rating": 31033,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-04T17:35:10.597Z",
+        "updated_at": "2023-10-05T05:54:01.775Z",
+        "car_id": "e0d53e86-208b-42c8-917c-02727187c85e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "2c4f5d36-1ecd-4247-9f45-e9a114f71ea2",
+        "issue": "Bug",
+        "description": "The system crashed unexpectedly.",
+        "status": "Open",
+        "created_at": "2023-10-05T05:32:31.844Z",
+        "updated_at": "2023-10-04T14:29:41.487Z",
+        "car_id": "e0d53e86-208b-42c8-917c-02727187c85e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "adb8743c-ad7e-460c-9724-058f1efa898f",
+        "issue": "Error",
+        "description": "The application froze multiple times.",
+        "status": "In Progress",
+        "created_at": "2023-10-04T23:00:31.492Z",
+        "updated_at": "2023-10-05T04:10:56.331Z",
+        "car_id": "534b35d1-86cd-4118-b4d7-13b690496b4e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcd23749-6d8a-4b61-996c-271eef3a6032",
+        "issue": "Fault",
+        "description": "There was a data loss issue.",
+        "status": "Resolved",
+        "created_at": "2023-10-04T11:26:24.425Z",
+        "updated_at": "2023-10-04T23:23:28.793Z",
+        "car_id": "450ec07e-00cf-4563-b8db-a1fbfaab88ee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "014731e4-890e-4d86-bbb1-884b148e6054",
+        "issue": "Problem",
+        "description": "The functionality is not working as expected.",
+        "status": "Closed",
+        "created_at": "2023-10-04T06:47:36.810Z",
+        "updated_at": "2023-10-05T05:49:41.561Z",
+        "car_id": "450ec07e-00cf-4563-b8db-a1fbfaab88ee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb5d4722-1232-4be2-ac77-35245196c777",
+        "issue": "Defect",
+        "description": "The performance is significantly slow.",
+        "status": "Reopened",
+        "created_at": "2023-10-04T17:49:20.118Z",
+        "updated_at": "2023-10-04T12:27:34.338Z",
+        "car_id": "450ec07e-00cf-4563-b8db-a1fbfaab88ee",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "1a18a591-44f6-4c29-8a1a-ff0790f4dce3",
+        "start_time": "2023-10-04T17:52:04.036Z",
+        "end_time": "2023-10-04T18:19:24.936Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "created_at": "2023-10-05T00:43:02.623Z",
+        "updated_at": "2023-10-04T08:22:22.005Z",
+        "car_id": "435d205c-6e97-44dc-99ce-856f44375b1e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "136f4b0b-9852-4db9-aa00-08662a016cf5",
+        "start_time": "2023-10-04T14:21:04.661Z",
+        "end_time": "2023-10-05T02:46:10.268Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "created_at": "2023-10-04T13:43:37.732Z",
+        "updated_at": "2023-10-04T17:20:02.600Z",
+        "car_id": "435d205c-6e97-44dc-99ce-856f44375b1e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f92e385d-90e7-496c-a7c9-ac4927b043a6",
+        "start_time": "2023-10-05T00:39:18.689Z",
+        "end_time": "2023-10-04T20:01:23.254Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "created_at": "2023-10-04T23:52:15.200Z",
+        "updated_at": "2023-10-04T14:24:35.509Z",
+        "car_id": "450ec07e-00cf-4563-b8db-a1fbfaab88ee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7f6b77b-2a40-4605-beba-e9dcf525b593",
+        "start_time": "2023-10-04T21:27:53.190Z",
+        "end_time": "2023-10-04T19:32:12.204Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "created_at": "2023-10-04T22:13:10.955Z",
+        "updated_at": "2023-10-05T00:56:55.687Z",
+        "car_id": "450ec07e-00cf-4563-b8db-a1fbfaab88ee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71f062e7-a0c7-46cb-99b1-ad863e936434",
+        "start_time": "2023-10-05T00:27:14.518Z",
+        "end_time": "2023-10-04T19:14:22.684Z",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Beach",
+        "created_at": "2023-10-04T22:33:44.364Z",
+        "updated_at": "2023-10-04T20:54:38.885Z",
+        "car_id": "534b35d1-86cd-4118-b4d7-13b690496b4e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0b7a9ac5-a316-47df-b6cc-b2b826027354",
+        "email": "Jamel.Effertz3@roq.tech",
+        "firstName": "Emerald",
+        "lastName": "Cruickshank",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81425818",
+        "tenantId": null
+      },
+      {
+        "reference": "257c6f8a-3403-45b6-a30e-af6b6acc1d13",
+        "email": "Whitney_Rohan37@roq.tech",
+        "firstName": "Dortha",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48499056",
+        "tenantId": null
+      },
+      {
+        "reference": "84e26a88-c0a8-453a-be84-3da4fc272a4f",
+        "email": "Shany_Windler@roq.tech",
+        "firstName": "Ima",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/518.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3cbc84d5-ccfe-44f1-999c-6de9138087d8",
+        "email": "Joe_Dietrich26@roq.tech",
+        "firstName": "Candido",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1009.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eb531bff-3e7c-4965-9bc4-47d8ace79225",
+        "email": "Mariane_Klocko@roq.tech",
+        "firstName": "Nicholaus",
+        "lastName": "Nikolaus",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58592368",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "8924c191-8b23-4aa1-9a55-5dcb33b5c4b7",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 5770,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-04T17:52:45.090Z",
+        "updated_at": "2023-10-04T10:53:18.347Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "221c774b-c2d8-4f8f-bc23-1622f4a6f5c9",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 93555,
+        "color": "Blue",
+        "license_plate": "XYZ456",
+        "created_at": "2023-10-04T21:31:45.757Z",
+        "updated_at": "2023-10-04T21:07:26.087Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "04cca23b-392e-4eef-9f4c-3d33e5b3037b",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 14492,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "created_at": "2023-10-04T18:15:48.100Z",
+        "updated_at": "2023-10-04T17:48:35.442Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "354f5be7-fb94-45c3-92be-15d0b12307d6",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 8653,
+        "color": "Black",
+        "license_plate": "456XYZ",
+        "created_at": "2023-10-05T05:31:17.521Z",
+        "updated_at": "2023-10-05T01:22:32.228Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9973d731-5d12-40db-a5b4-7547343cd33e",
+        "make": "BMW",
+        "model": "X5",
+        "year": 71695,
+        "color": "White",
+        "license_plate": "789DEF",
+        "created_at": "2023-10-05T06:09:26.060Z",
+        "updated_at": "2023-10-04T22:11:30.581Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "be8df790-f1af-47ad-bce7-c78e98bd4fcc",
+        "rating": 76680,
+        "comment": "Great product!",
+        "created_at": "2023-10-05T00:06:21.752Z",
+        "updated_at": "2023-10-04T12:27:00.982Z",
+        "car_id": "8924c191-8b23-4aa1-9a55-5dcb33b5c4b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4eb02e6-dea7-4495-b35a-382c89c48b54",
+        "rating": 25747,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-04T14:40:00.936Z",
+        "updated_at": "2023-10-05T01:04:26.538Z",
+        "car_id": "354f5be7-fb94-45c3-92be-15d0b12307d6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2778c8e6-e671-4f57-b86f-5bdebe710574",
+        "rating": 25618,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-04T14:03:30.135Z",
+        "updated_at": "2023-10-04T14:56:08.163Z",
+        "car_id": "354f5be7-fb94-45c3-92be-15d0b12307d6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f8b0b16-e9a2-4f81-ae80-2a75d2ed2561",
+        "rating": 86987,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-05T05:21:40.663Z",
+        "updated_at": "2023-10-04T09:04:43.566Z",
+        "car_id": "221c774b-c2d8-4f8f-bc23-1622f4a6f5c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "156fe710-84af-4ed9-bad1-71d90110f02d",
+        "rating": 23645,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-04T12:37:40.857Z",
+        "updated_at": "2023-10-05T01:31:28.105Z",
+        "car_id": "04cca23b-392e-4eef-9f4c-3d33e5b3037b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "bac9fe10-becf-41c8-9ac3-df5f466533e4",
+        "issue": "Bug",
+        "description": "The system is not responding",
+        "status": "Open",
+        "created_at": "2023-10-04T16:06:45.349Z",
+        "updated_at": "2023-10-04T20:13:54.770Z",
+        "car_id": "354f5be7-fb94-45c3-92be-15d0b12307d6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37dd3256-8c6f-4e19-b836-18a1e1366aee",
+        "issue": "Error",
+        "description": "Unable to login",
+        "status": "In Progress",
+        "created_at": "2023-10-04T16:00:18.308Z",
+        "updated_at": "2023-10-05T06:19:44.442Z",
+        "car_id": "354f5be7-fb94-45c3-92be-15d0b12307d6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14b66543-8a04-4a87-83fe-402fd108971e",
+        "issue": "Crash",
+        "description": "Data loss",
+        "status": "Resolved",
+        "created_at": "2023-10-04T10:21:58.728Z",
+        "updated_at": "2023-10-04T15:04:44.440Z",
+        "car_id": "9973d731-5d12-40db-a5b4-7547343cd33e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2571644b-6873-4b85-8384-250c4ef3cd8d",
+        "issue": "Performance",
+        "description": "Slow loading times",
+        "status": "Closed",
+        "created_at": "2023-10-04T12:41:22.658Z",
+        "updated_at": "2023-10-04T19:07:40.017Z",
+        "car_id": "221c774b-c2d8-4f8f-bc23-1622f4a6f5c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "746dc14f-cc9a-4909-9103-90551c40ccc0",
+        "issue": "Security",
+        "description": "Unauthorized access",
+        "status": "Reopened",
+        "created_at": "2023-10-04T12:19:59.316Z",
+        "updated_at": "2023-10-05T05:06:25.878Z",
+        "car_id": "221c774b-c2d8-4f8f-bc23-1622f4a6f5c9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "6a5a25bb-7638-4459-87a2-47201d42818e",
+        "start_time": "2023-10-04T06:44:45.564Z",
+        "end_time": "2023-10-04T13:02:48.537Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City Center",
+        "created_at": "2023-10-04T16:13:26.397Z",
+        "updated_at": "2023-10-04T18:41:01.462Z",
+        "car_id": "354f5be7-fb94-45c3-92be-15d0b12307d6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0da274c2-d9a3-479a-a6ef-522f1c39dde6",
+        "start_time": "2023-10-04T21:01:34.743Z",
+        "end_time": "2023-10-05T00:18:20.410Z",
+        "pickup_location": "Train Station",
+        "dropoff_location": "Shopping Mall",
+        "created_at": "2023-10-04T19:01:27.473Z",
+        "updated_at": "2023-10-05T06:00:33.541Z",
+        "car_id": "8924c191-8b23-4aa1-9a55-5dcb33b5c4b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8181485d-6c2a-4922-9ef3-06fc8add9731",
+        "start_time": "2023-10-04T17:58:08.894Z",
+        "end_time": "2023-10-04T18:28:01.450Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "created_at": "2023-10-05T00:32:07.329Z",
+        "updated_at": "2023-10-04T22:16:30.423Z",
+        "car_id": "04cca23b-392e-4eef-9f4c-3d33e5b3037b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1c95a51-b2e3-439b-a2a9-1b594ab84699",
+        "start_time": "2023-10-04T17:51:35.510Z",
+        "end_time": "2023-10-04T12:15:25.856Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "created_at": "2023-10-04T13:18:39.175Z",
+        "updated_at": "2023-10-04T11:35:36.188Z",
+        "car_id": "354f5be7-fb94-45c3-92be-15d0b12307d6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fe7ac85-696b-4b01-a863-035993e2e359",
+        "start_time": "2023-10-04T14:28:36.483Z",
+        "end_time": "2023-10-04T18:54:23.894Z",
+        "pickup_location": "Residential Area",
+        "dropoff_location": "Beach",
+        "created_at": "2023-10-05T01:00:28.823Z",
+        "updated_at": "2023-10-04T08:15:55.394Z",
+        "car_id": "354f5be7-fb94-45c3-92be-15d0b12307d6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7ddd392b-1448-4f1e-95a8-047f2267f3f2",
+        "email": "Milan_Mayert71@roq.tech",
+        "firstName": "Judy",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/527.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "614767d4-7f3e-4943-96f3-fc9a50c52124",
+        "email": "Penelope.Gerlach@roq.tech",
+        "firstName": "Aubrey",
+        "lastName": "Farrell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/730.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "14d2538f-46b6-45ef-a7a7-58d1105e34c5",
+        "email": "Frankie.Ryan91@roq.tech",
+        "firstName": "Greyson",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/885.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "480831f4-3811-4339-bf5e-42935d7b4057",
+        "email": "Benton_Upton14@roq.tech",
+        "firstName": "Mayra",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96254203",
+        "tenantId": null
+      },
+      {
+        "reference": "bf5f45e4-3bd5-44b3-bad9-caf6009b11d8",
+        "email": "Aglae_Littel@roq.tech",
+        "firstName": "Stephania",
+        "lastName": "Schowalter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31054866",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "6c7fd1ae-0d8b-435b-8862-a4c58f755d8d",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 77734,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-05T00:48:04.204Z",
+        "updated_at": "2023-10-04T16:46:33.814Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "160600c3-37c4-416e-8e3b-31af541e00d7",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 68815,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-10-04T10:27:26.049Z",
+        "updated_at": "2023-10-04T13:20:20.774Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d3f8e1d5-8418-4209-83ba-035856def8f7",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 11371,
+        "color": "Black",
+        "license_plate": "123456",
+        "created_at": "2023-10-05T01:12:35.352Z",
+        "updated_at": "2023-10-04T10:28:53.948Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6374e4fa-8a3c-43ed-8502-c098e3feb1a2",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 59450,
+        "color": "White",
+        "license_plate": "DEF987",
+        "created_at": "2023-10-05T03:20:57.990Z",
+        "updated_at": "2023-10-04T11:46:14.872Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e2442710-29e7-4bd5-8a68-b65b829f5ad8",
+        "make": "BMW",
+        "model": "X5",
+        "year": 77485,
+        "color": "Silver",
+        "license_plate": "MNO321",
+        "created_at": "2023-10-04T20:55:10.627Z",
+        "updated_at": "2023-10-04T17:53:43.474Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "458f0f3e-6a50-4c47-beed-ef7b178ef445",
+        "rating": 56817,
+        "comment": "Great product!",
+        "created_at": "2023-10-05T04:42:54.524Z",
+        "updated_at": "2023-10-05T03:20:02.512Z",
+        "car_id": "160600c3-37c4-416e-8e3b-31af541e00d7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd0a52f5-ae6c-4d4b-aef2-8d71c211a9f4",
+        "rating": 18896,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-04T14:26:14.371Z",
+        "updated_at": "2023-10-04T13:42:16.872Z",
+        "car_id": "6c7fd1ae-0d8b-435b-8862-a4c58f755d8d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd5475bc-c664-4d94-a34c-fcdb5b564c09",
+        "rating": 61827,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-05T01:39:22.319Z",
+        "updated_at": "2023-10-05T03:17:35.783Z",
+        "car_id": "160600c3-37c4-416e-8e3b-31af541e00d7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b283d3cc-d695-4674-ae51-ec91d88870ef",
+        "rating": 50626,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-04T20:10:44.263Z",
+        "updated_at": "2023-10-05T04:10:42.957Z",
+        "car_id": "6c7fd1ae-0d8b-435b-8862-a4c58f755d8d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3418031f-f387-4cb7-8377-2c873ccdcca2",
+        "rating": 64589,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-04T22:02:52.144Z",
+        "updated_at": "2023-10-04T16:01:58.733Z",
+        "car_id": "6374e4fa-8a3c-43ed-8502-c098e3feb1a2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "6cce7cb0-67ad-4696-a53a-78bc2d7ac898",
+        "issue": "Bug",
+        "description": "The system crashed unexpectedly",
+        "status": "Open",
+        "created_at": "2023-10-04T23:03:58.796Z",
+        "updated_at": "2023-10-04T10:10:38.783Z",
+        "car_id": "6c7fd1ae-0d8b-435b-8862-a4c58f755d8d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa797626-6aa4-4da6-9692-fafc3a1550e3",
+        "issue": "Error",
+        "description": "Unable to login",
+        "status": "In Progress",
+        "created_at": "2023-10-05T00:20:44.139Z",
+        "updated_at": "2023-10-04T19:01:30.073Z",
+        "car_id": "d3f8e1d5-8418-4209-83ba-035856def8f7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9d61a20-8e9f-4931-bea7-e44562ff9901",
+        "issue": "Fault",
+        "description": "Data loss occurred",
+        "status": "Resolved",
+        "created_at": "2023-10-05T04:36:14.537Z",
+        "updated_at": "2023-10-04T16:54:27.221Z",
+        "car_id": "6374e4fa-8a3c-43ed-8502-c098e3feb1a2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d924bd16-400d-401f-9559-4ddc996d22ea",
+        "issue": "Problem",
+        "description": "Incorrect calculations",
+        "status": "Closed",
+        "created_at": "2023-10-05T02:12:51.204Z",
+        "updated_at": "2023-10-04T09:03:49.142Z",
+        "car_id": "6c7fd1ae-0d8b-435b-8862-a4c58f755d8d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbc863cd-d70c-467e-8e9d-9933a0e7eb0a",
+        "issue": "Defect",
+        "description": "Feature not working",
+        "status": "Pending",
+        "created_at": "2023-10-04T12:09:54.443Z",
+        "updated_at": "2023-10-05T01:01:08.158Z",
+        "car_id": "e2442710-29e7-4bd5-8a68-b65b829f5ad8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "0dca739e-ed48-4c5a-a89c-e232d31a14fc",
+        "start_time": "2023-10-04T12:13:25.847Z",
+        "end_time": "2023-10-04T21:01:03.161Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City center",
+        "created_at": "2023-10-05T01:39:10.380Z",
+        "updated_at": "2023-10-04T18:20:19.176Z",
+        "car_id": "6c7fd1ae-0d8b-435b-8862-a4c58f755d8d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4063c46b-7990-4595-84d2-af73e3ba445e",
+        "start_time": "2023-10-05T05:39:19.175Z",
+        "end_time": "2023-10-04T11:02:30.550Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Shopping mall",
+        "created_at": "2023-10-04T19:24:28.777Z",
+        "updated_at": "2023-10-04T09:37:50.045Z",
+        "car_id": "6374e4fa-8a3c-43ed-8502-c098e3feb1a2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6512147-6e51-4012-8d9d-2cb52842dc37",
+        "start_time": "2023-10-04T13:32:47.378Z",
+        "end_time": "2023-10-05T06:23:05.944Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "created_at": "2023-10-04T20:33:04.074Z",
+        "updated_at": "2023-10-05T05:27:34.185Z",
+        "car_id": "e2442710-29e7-4bd5-8a68-b65b829f5ad8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f5de9e6-ac83-47c1-a978-3f8e3e05e040",
+        "start_time": "2023-10-04T14:14:27.695Z",
+        "end_time": "2023-10-05T00:33:15.972Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "created_at": "2023-10-04T20:23:17.293Z",
+        "updated_at": "2023-10-04T12:36:40.535Z",
+        "car_id": "d3f8e1d5-8418-4209-83ba-035856def8f7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "093fd02a-cf12-4f49-b73a-5a12894739d2",
+        "start_time": "2023-10-04T23:44:09.066Z",
+        "end_time": "2023-10-05T03:43:54.637Z",
+        "pickup_location": "Residential area",
+        "dropoff_location": "Beach",
+        "created_at": "2023-10-04T21:34:56.260Z",
+        "updated_at": "2023-10-05T01:08:36.358Z",
+        "car_id": "160600c3-37c4-416e-8e3b-31af541e00d7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "aefc7554-83c2-4281-8cdc-59d76cedd2ad",
+        "email": "Imelda_Heathcote-Kirlin@roq.tech",
+        "firstName": "Hilma",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/559.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fab4261d-124f-4a1f-9503-b1fa44473860",
+        "email": "Heath.Collier80@roq.tech",
+        "firstName": "Sonya",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/210.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "37227faa-1fb8-434f-9774-6637fa741a05",
+        "email": "Janick_Schoen-Ziemann23@roq.tech",
+        "firstName": "Gaston",
+        "lastName": "Ankunding",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/798.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "88da84dc-c0ea-4bb1-b76f-de11452679e9",
+        "email": "Dee_Jacobson-Corwin@roq.tech",
+        "firstName": "Simone",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/996.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "15e2353b-d6c8-4288-8893-fb32a157ea5d",
+        "email": "Euna.Franey17@roq.tech",
+        "firstName": "Sonia",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/113.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "9917d18c-56bd-477b-b798-bc235ccbad5f",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 3895,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-04T17:34:33.149Z",
+        "updated_at": "2023-10-04T16:04:18.483Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "938fea73-f600-4a55-87f4-896943397704",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 63478,
+        "color": "Blue",
+        "license_plate": "XYZ456",
+        "created_at": "2023-10-04T12:40:41.873Z",
+        "updated_at": "2023-10-04T07:28:53.026Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7ad30e1b-9c79-418f-8bb6-a8df5a6aa0fc",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 90267,
+        "color": "Black",
+        "license_plate": "123ABC",
+        "created_at": "2023-10-04T14:49:07.519Z",
+        "updated_at": "2023-10-04T20:50:22.447Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "643f3052-50dd-4b8e-b72f-2d0c6f2c2f6b",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 43609,
+        "color": "White",
+        "license_plate": "456XYZ",
+        "created_at": "2023-10-04T19:41:20.767Z",
+        "updated_at": "2023-10-05T00:08:11.610Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c039ad81-2cac-4f97-9e0c-dd7d8bb23f7c",
+        "make": "BMW",
+        "model": "X5",
+        "year": 77167,
+        "color": "Silver",
+        "license_plate": "789DEF",
+        "created_at": "2023-10-04T21:12:25.336Z",
+        "updated_at": "2023-10-04T10:51:20.812Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "82d89b59-5710-43f2-8479-d119cbf99350",
+        "rating": 76997,
+        "comment": "Great product!",
+        "created_at": "2023-10-04T17:21:14.794Z",
+        "updated_at": "2023-10-04T11:30:34.921Z",
+        "car_id": "643f3052-50dd-4b8e-b72f-2d0c6f2c2f6b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14278c76-4961-4f77-a50d-a3fb16a6143f",
+        "rating": 87456,
+        "comment": "Excellent service!",
+        "created_at": "2023-10-04T22:26:57.737Z",
+        "updated_at": "2023-10-04T15:34:48.362Z",
+        "car_id": "938fea73-f600-4a55-87f4-896943397704",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a0844ba-74c7-4cdb-8d43-f280ddfebec3",
+        "rating": 74770,
+        "comment": "Highly recommended!",
+        "created_at": "2023-10-04T12:50:12.356Z",
+        "updated_at": "2023-10-04T12:38:58.137Z",
+        "car_id": "938fea73-f600-4a55-87f4-896943397704",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae6351b0-73be-4827-9573-eebe2b8ba164",
+        "rating": 29117,
+        "comment": "Very satisfied!",
+        "created_at": "2023-10-04T14:35:26.136Z",
+        "updated_at": "2023-10-04T08:48:03.393Z",
+        "car_id": "9917d18c-56bd-477b-b798-bc235ccbad5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "394ab596-0230-48c7-919b-35819780382c",
+        "rating": 78229,
+        "comment": "Impressive quality!",
+        "created_at": "2023-10-04T14:28:34.052Z",
+        "updated_at": "2023-10-04T07:05:25.293Z",
+        "car_id": "938fea73-f600-4a55-87f4-896943397704",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "880f911c-8482-479b-9e5d-eab382818019",
+        "issue": "Bug",
+        "description": "Application crashes randomly",
+        "status": "Open",
+        "created_at": "2023-10-04T17:37:42.419Z",
+        "updated_at": "2023-10-05T00:55:25.988Z",
+        "car_id": "c039ad81-2cac-4f97-9e0c-dd7d8bb23f7c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2865fbab-6b5d-476d-bf09-dec504c2c76e",
+        "issue": "Error",
+        "description": "Data not saving properly",
+        "status": "In Progress",
+        "created_at": "2023-10-04T20:32:20.198Z",
+        "updated_at": "2023-10-04T11:37:41.465Z",
+        "car_id": "9917d18c-56bd-477b-b798-bc235ccbad5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db4e95c6-f1fb-4b6a-82f5-e9917a11384e",
+        "issue": "Glitch",
+        "description": "Slow performance",
+        "status": "Resolved",
+        "created_at": "2023-10-05T03:39:03.574Z",
+        "updated_at": "2023-10-05T05:56:25.417Z",
+        "car_id": "c039ad81-2cac-4f97-9e0c-dd7d8bb23f7c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e06d6abe-5de7-45b3-8562-a3a88170add7",
+        "issue": "Problem",
+        "description": "Incorrect calculations",
+        "status": "Closed",
+        "created_at": "2023-10-05T06:12:28.754Z",
+        "updated_at": "2023-10-04T13:22:32.679Z",
+        "car_id": "9917d18c-56bd-477b-b798-bc235ccbad5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b052ee5-2b6a-485e-88cc-b7fca8cd7e09",
+        "issue": "Issue",
+        "description": "UI not responsive",
+        "status": "Reopened",
+        "created_at": "2023-10-04T10:14:56.386Z",
+        "updated_at": "2023-10-05T04:48:50.091Z",
+        "car_id": "9917d18c-56bd-477b-b798-bc235ccbad5f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "c834389e-9c61-448e-90e6-11ae1d245a17",
+        "start_time": "2023-10-04T10:37:45.648Z",
+        "end_time": "2023-10-04T20:54:05.116Z",
+        "pickup_location": "Airport",
+        "dropoff_location": "City center",
+        "created_at": "2023-10-05T03:14:36.320Z",
+        "updated_at": "2023-10-04T07:13:22.248Z",
+        "car_id": "9917d18c-56bd-477b-b798-bc235ccbad5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e95e602-f9c4-4c7d-b31c-b5708791add7",
+        "start_time": "2023-10-04T19:24:36.932Z",
+        "end_time": "2023-10-04T23:31:54.847Z",
+        "pickup_location": "Train station",
+        "dropoff_location": "Shopping mall",
+        "created_at": "2023-10-04T16:41:54.382Z",
+        "updated_at": "2023-10-05T05:48:59.536Z",
+        "car_id": "938fea73-f600-4a55-87f4-896943397704",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd845eff-50b2-4340-95db-83d11c06fb1a",
+        "start_time": "2023-10-05T01:01:44.015Z",
+        "end_time": "2023-10-04T20:41:22.450Z",
+        "pickup_location": "Hotel",
+        "dropoff_location": "Restaurant",
+        "created_at": "2023-10-04T19:15:01.701Z",
+        "updated_at": "2023-10-05T00:51:29.253Z",
+        "car_id": "c039ad81-2cac-4f97-9e0c-dd7d8bb23f7c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb6b0533-8936-4626-a08e-edc4f0040ee5",
+        "start_time": "2023-10-04T16:24:34.934Z",
+        "end_time": "2023-10-04T13:16:57.624Z",
+        "pickup_location": "Office",
+        "dropoff_location": "Park",
+        "created_at": "2023-10-05T04:55:27.815Z",
+        "updated_at": "2023-10-04T18:26:18.069Z",
+        "car_id": "643f3052-50dd-4b8e-b72f-2d0c6f2c2f6b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79c6ec6f-c54b-47d8-b2dd-529818f081e1",
+        "start_time": "2023-10-04T18:35:15.459Z",
+        "end_time": "2023-10-05T03:00:40.602Z",
+        "pickup_location": "Residential area",
+        "dropoff_location": "Beach",
+        "created_at": "2023-10-04T18:43:27.053Z",
+        "updated_at": "2023-10-04T19:39:03.857Z",
+        "car_id": "643f3052-50dd-4b8e-b72f-2d0c6f2c2f6b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4befa3a1-dd52-49c7-9a58-5b2042dc454e",
+        "email": "Royce.Haag@roq.tech",
+        "firstName": "Caterina",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/598.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "40070589-0bdb-466a-877b-25c742da9476",
+        "email": "Carole_Glover@roq.tech",
+        "firstName": "Ruthe",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1140.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fbf80e29-8d5a-4dc8-b6ee-fb15cc3e80b9",
+        "email": "Otha_Weimann@roq.tech",
+        "firstName": "Ruth",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80553253",
+        "tenantId": null
+      },
+      {
+        "reference": "44dcb178-41b6-4641-88ef-891d511b7cb0",
+        "email": "Jennings_Balistreri77@roq.tech",
+        "firstName": "Gilda",
+        "lastName": "D'Amore",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/216.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2ea436e4-51cf-44e5-9a32-b942a45c9d6f",
+        "email": "Irving.Hagenes75@roq.tech",
+        "firstName": "Coleman",
+        "lastName": "Glover",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/424.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
